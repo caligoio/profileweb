@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Simple Table</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        table {
-            width: 60%;
-            border-collapse: collapse;
-            margin: 20px auto;
-        }
-
-        th, td {
-            border: 1px solid #333;
-            padding: 10px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        tr:hover {
-            background-color: #ddd;
-        }
-    </style>
-</head>
-<body>
-
-    <table>
-        <tr>
+  <head>
+    <title>Tabel Data Nilai</title>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="./table_style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Data Nilai Siswa</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Roll No.</th>
             <th>Name</th>
-            <th>Age</th>
-            <th>City</th>
-        </tr>
-        <tr>
-            <td>John</td>
-            <td>22</td>
-            <td>Jakarta</td>
-        </tr>
-        <tr>
-            <td>Anna</td>
-            <td>24</td>
-            <td>Bandung</td>
-        </tr>
-        <tr>
-            <td>David</td>
-            <td>21</td>
-            <td>Surabaya</td>
-        </tr>
-    </table>
-
-</body>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Computer Science</th>
+            <th>Social Studies</th>
+          <tr>  
+        </thead>
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>Ali</td>
+            <td>86</td>
+            <td>77</td>
+            <td>87</td>
+            <td>92</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Salman</td>
+            <td>86</td>
+            <td>77</td>
+            <td>87</td>
+            <td>92</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>Shan</td>
+            <td>86</td>
+            <td>77</td>
+            <td>87</td>
+            <td>92</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>Aliyan</td>
+            <td>86</td>
+            <td>77</td>
+            <td>87</td>
+            <td>92</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>05</td>
+            <td>Zeeshan</td>
+            <td>86</td>
+            <td>77</td>
+            <td>87</td>
+            <td>92</td>
+            <td>95</td>
+          </tr>
+        </tbody>
+        <!-- footer 
+        <tfoot>
+          <tr>
+            <td colspan=3>Maximum Marks: </td>
+            <td colspan=3>Marks Obtained: </td>
+            <td colspan=2>Grade: </td>
+          </tr>
+        </tfoot> footer ends-->
+      </table>
+    </div>
+  </body>
 </html>
